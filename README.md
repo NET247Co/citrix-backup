@@ -1,4 +1,4 @@
-# citrix-backup
+# Citrix Simple Backups
 Simple bash script to handle regular backups of VMs
 
 This script is based off https://andrewsarver.com/xenserver-vm-backup-to-nfs-script/ 
