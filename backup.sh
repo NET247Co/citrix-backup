@@ -73,8 +73,8 @@ do
 
         # Backup Timer Calculations
         VM_END=`date +%s`
-        VM_DUR=$((VM_START-VM_END))
-        VM_TOT=$((VM_TOT+VM_DUR))
+        VM_DUR=`$((VM_END-VM_START))`
+        VM_TOT=`$((VM_TOT+VM_DUR))`
 
         echo "Backup of $VMNAME virtual machine completed in $VM_DUR Seconds"
         
